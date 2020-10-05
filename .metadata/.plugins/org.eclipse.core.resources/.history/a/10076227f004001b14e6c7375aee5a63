@@ -1,0 +1,52 @@
+package br.com.universidade.modelo;
+
+public class Bacharelado extends Formacao {
+
+	private String projetoConclusao;
+	private String cargaHorariaEstagio;
+	
+	
+	
+	public void setAll(String projetoConclusao, String cargaHorariaEstagio) {
+	super.setAll(projetoConclusao, cargaHorariaEstagio);
+	this.projetoConclusao = projetoConclusao;
+	this.cargaHorariaEstagio = cargaHorariaEstagio;
+	}
+	
+	
+	public String getAll() {
+		return 
+				super.getAll() + "\n" +
+ 				"Projeto Conclusão: " + projetoConclusao + "\n" + 
+				"Carga Horária Estágio: " + cargaHorariaEstagio; 
+	}
+	
+	
+		public Bacharelado() {
+		super();
+	}
+		
+		
+	public Bacharelado(float valor, String descricao, int duracao, String projetoConclusao,
+			String cargaHorariaEstagio) {
+		super(valor, descricao, duracao);
+		
+		this.projetoConclusao = projetoConclusao;
+		this.cargaHorariaEstagio = cargaHorariaEstagio;
+	}
+	public String getProjetoConclusao() {
+		return projetoConclusao;
+	}
+	public void setProjetoConclusao(String projetoConclusao) {
+		this.projetoConclusao = projetoConclusao;
+	}
+	public String getCargaHorariaEstagio() {
+		return cargaHorariaEstagio;
+	}
+	public void setCargaHorariaEstagio(String cargaHorariaEstagio) {
+		this.cargaHorariaEstagio = cargaHorariaEstagio;
+	}
+	
+	
+	
+}

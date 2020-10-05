@@ -1,0 +1,10 @@
+package be.com.ecommerce.implementacao;
+
+public class ImplementarVendaConstrutor {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

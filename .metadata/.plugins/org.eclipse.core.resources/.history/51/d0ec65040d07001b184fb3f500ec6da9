@@ -1,0 +1,12 @@
+package snippet;
+
+public class Snippet {
+	public static void main(String[] args) {
+		Magica.f("Valor"),
+							Magica.s("Descrição"),
+							Magica.i("Duração"),
+							Magica.s("Proj. Conclusão"),
+							Magica.s("Carga Horária Estágio")
+	}
+}
+

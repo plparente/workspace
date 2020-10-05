@@ -1,0 +1,15 @@
+package variaveis;
+
+public class Primitivos {
+
+	public static void main(String[] args) {
+		/* Tipos primitivos em ordem hierarquica:
+		 * boolean => tipo lógico (true ou false)
+		 * 
+		 */
+
+		boolean gravida=true;
+		
+	}
+
+}

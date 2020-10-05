@@ -1,0 +1,22 @@
+package decisao;
+
+public class DecisaoSimples {
+	/*
+	 * Identificadores = nomes (classes, variaval...)
+	 * Regras:
+	 * 	 1º Não começarás com número .... 1berto (errado), h1berto (certo)
+	 * 	 2º Não usarás caracteres especiais (@, #, ~, etc...), exceção: underline (_)
+	 * 	 3º Não utilizarás palavras reservadas da linguagem (class, int, main, public...)
+	 *  
+	 * Padroes (variáveis):
+	 * - nomes significativos
+	 * - sempre começam com letras minusculas
+	 * - utilizar o padrão Camel Case (nomeDoCliente) 
+	 */
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

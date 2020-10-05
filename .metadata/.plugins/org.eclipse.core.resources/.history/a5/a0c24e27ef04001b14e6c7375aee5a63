@@ -1,0 +1,22 @@
+package br.com.universidade.modelo;
+
+public class Pos {
+
+	private String nivel;
+	private boolean planoEstendido;
+	public String getNivel() {
+		return nivel;
+	}
+	public void setNivel(String nivel) {
+		this.nivel = nivel;
+	}
+	public boolean isPlanoEstendido() {
+		return planoEstendido;
+	}
+	public void setPlanoEstendido(boolean planoEstendido) {
+		this.planoEstendido = planoEstendido;
+	}
+	
+	
+	
+}

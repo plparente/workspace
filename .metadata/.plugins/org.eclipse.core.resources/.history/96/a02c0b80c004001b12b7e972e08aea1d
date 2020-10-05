@@ -1,0 +1,11 @@
+package be.com.ecommerce.implementacao;
+
+import br.com.ecommerce.modelo.Venda;
+
+public class ImplementarVendaConstrutor {
+
+	public static void main(String[] args) {
+		Venda objeto = new Venda();
+	}
+
+}

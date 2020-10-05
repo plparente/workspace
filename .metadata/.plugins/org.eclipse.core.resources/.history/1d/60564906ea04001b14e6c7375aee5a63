@@ -1,0 +1,11 @@
+package br.com.universidade.modelo;
+
+public class Formacao {
+
+	private float valor;
+	private String descricao;
+	private int duracao;
+	
+}
+	
+	

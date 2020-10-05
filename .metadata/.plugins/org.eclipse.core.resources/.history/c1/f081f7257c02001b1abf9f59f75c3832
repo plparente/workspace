@@ -1,0 +1,42 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class exercicio1 {
+
+	public static void main(String[] args) {
+	
+		String nomeCliente = JOptionPane.showInputDialog("Digite nome do cliente:").toUpperCase();
+		float investido = Float.parseFloat(JOptionPane.showInputDialog("Digite valor investido:"));
+		float fidelidade = Float.parseFloat(JOptionPane.showInputDialog("Digite o tempo de fidelidade:"));
+		
+		String regiao = JOptionPane.showInputDialog("Qual a região?").toUpperCase();
+		if (regiao.equalsIgnoreCase("Sul") == true || regiao.equalsIgnoreCase("Sudeste") == true ) {
+			fidelidade = fidelidade * (float) 1.2;
+		}
+		float valorAtual = 0;
+		if (investido < 1000) {
+			valorAtual = investido * (float) 1.015;
+		}
+		
+		else if (investido > 5000) {
+			valorAtual = investido * (float) 1.03;
+		}
+		
+		else { 
+			
+			valorAtual = investido * (float) 1.02;
+		}
+		
+		if (fidelidade > 5) {
+			valorAtual = valorAtual * (float) 1.01;
+			
+			System.out.println("O valor investido atualmente é de: R$ + valorAtual");
+			System.out.println("A diferença para o valor inicial é de: R$" + (float) (valorAtual - investido"));
+				
+		}
+			
+			
+	}
+
+}

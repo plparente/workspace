@@ -1,0 +1,30 @@
+package br.com.ecommerce.modelo;
+
+public class Venda {
+
+	private int notaFiscal;
+	private String data;
+	private float total;
+	private Produto produto;
+	private Cliente cliente;
+
+	
+	
+	public String getAll() {
+		return
+				"NotaFiscal......: " + notaFiscal + "\n" + 
+				"Data...: " + data + "\n" + 
+				"Total..: " + total + "\n" + 
+				"Produto.: " + produto + "\n" + 
+				"Cliente..: " + cliente;
+	}
+	
+	public void setAll(int notaFiscal, String data, float total, Produto produto, Cliente cliente) {
+		this.notaFiscal = notaFiscal;
+		this.data=data;
+		this.total=total;
+		this.produto=produto;
+		this.cliente=cliente;
+		}
+	
+}

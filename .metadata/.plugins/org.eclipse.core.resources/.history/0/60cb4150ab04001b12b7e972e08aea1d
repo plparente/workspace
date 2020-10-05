@@ -1,0 +1,12 @@
+package be.com.ecommerce.implementacao;
+
+import br.com.ecommerce.modelo.Venda;
+
+public class TesteVenda {
+
+	public static void main(String[] args) {
+		Venda venda = new Venda();
+
+	}
+
+}

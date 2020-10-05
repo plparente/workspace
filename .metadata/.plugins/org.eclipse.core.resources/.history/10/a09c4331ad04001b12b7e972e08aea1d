@@ -1,0 +1,45 @@
+package be.com.ecommerce.implementacao;
+
+import br.com.ecommerce.modelo.Cliente;
+import br.com.ecommerce.modelo.Endereco;
+import br.com.ecommerce.modelo.Produto;
+import br.com.ecommerce.modelo.Venda;
+
+public class TesteVenda {
+
+	public static void main(String[] args) {
+		Venda venda = new Venda();
+		Cliente cliente = new Cliente();
+		Endereco endereco = new Endereco();
+		Produto produto = new Produto();
+		//faz a amarração(ligação)
+		cliente.setEndereco(endereco);
+		venda.setProduto(produto);
+		venda.setCliente(cliente);
+		// fim da amarração
+		
+		endereco.setBairro("CENTRO");
+		endereco.setLogradouro("AV PAULISTA");
+		
+		cliente.setId(1);
+		cliente.setNome("CARLA");
+		
+		produto.setDescricao("CHURROS");
+		produto.setQtde(15);
+		produto.setValorVenda(15);
+		
+		venda.setTotal(150);
+		venda.setData("02/10/2020");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

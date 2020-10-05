@@ -1,0 +1,17 @@
+package be.com.ecommerce.implementacao;
+
+import br.com.ecommerce.modelo.Cliente;
+import br.com.ecommerce.modelo.Endereco;
+import br.com.ecommerce.modelo.Produto;
+import br.com.ecommerce.modelo.Venda;
+
+public class TesteVenda {
+
+	public static void main(String[] args) {
+		Venda venda = new Venda();
+		Cliente cliente = new Cliente();
+		Endereco endereco = new Endereco();
+		Produto produto = new Produto();
+	}
+
+}

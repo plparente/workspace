@@ -1,0 +1,15 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class exercicio1 {
+
+	public static void main(String[] args) {
+	
+		String nomeCliente = JOptionPane.showInputDialog("Digite o nome do cliente:").toUpperCase();
+		float investido = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor investido:"));
+		float fidelidade = Float.parseFloat(JOptionPane.showInputDialog("Digite o tempo de fidelidade:"));
+		String regiao = JOptionPane.showInputDialog("Qual a região?").toUpperCase();
+	}
+
+}

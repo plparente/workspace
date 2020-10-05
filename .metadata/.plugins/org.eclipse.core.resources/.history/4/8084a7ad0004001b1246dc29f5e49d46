@@ -1,0 +1,41 @@
+package br.com.lojauati.modelo;
+
+public class Televisao {
+
+	private int canal;
+	private boolean status;
+	private int volume;
+	
+	
+	public void aumentarVolume() {
+		volume++;
+	}
+	
+	public void diminuirVolume() {
+		volume--;
+	}
+
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+

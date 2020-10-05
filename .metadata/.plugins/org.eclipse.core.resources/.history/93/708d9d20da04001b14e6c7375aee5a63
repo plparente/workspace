@@ -1,0 +1,22 @@
+package be.com.ecommerce.implementacao;
+
+public class ImplementarCliente {
+
+	public static void main(String[] args) {
+		
+		char opcao = Magica.s("Digite\n<1> PJ\n<2>").charAt(0);
+
+		if (opcao=='1') {
+			
+		}else(opcao=='2') {
+			
+		}else {
+			System.out.println("Opção inválida");
+		}
+		
+		System.out.println(pj.getAll());
+		
+		
+	}
+
+}

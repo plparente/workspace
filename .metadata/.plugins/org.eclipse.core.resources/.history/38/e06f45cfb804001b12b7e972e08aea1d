@@ -1,0 +1,59 @@
+package be.com.ecommerce.implementacao;
+
+import br.com.ecommerce.modelo.Cliente;
+import br.com.ecommerce.modelo.Endereco;
+import br.com.ecommerce.modelo.Produto;
+import br.com.ecommerce.modelo.Venda;
+import br.com.ecommerce.tela.Magica;
+
+public class TesteVenda {
+
+	
+	
+	public static void main(String[] args) {
+		Venda venda = new Venda();
+		Cliente cliente = new Cliente();
+		Endereco endereco = new Endereco();
+		Produto produto = new Produto();
+		//faz a amarração(ligação)
+		cliente.setEndereco(endereco);
+		venda.setProduto(produto);
+		venda.setCliente(cliente);
+		// fim da amarração
+		
+		endereco.setBairro(Magica.s("CENTRO"));
+		endereco.setLogradouro(Magica.s("AV PAULISTA"));
+		endereco.setCidade(Magica.s("TAPEJARA"));
+		endereco.setEstado(Magica.s("PARANA"));
+		endereco.setCep(Magica.s("13807-086"));
+		endereco.setComplemento(Magica.s("CASA"));
+		endereco.setNumero(Magica.s("1000"));
+			
+		cliente.setId(1);
+		cliente.setNome("CARLA");
+		cliente.setEndereco(endereco);
+				
+		produto.setDescricao("CHURROS");
+		produto.setQtde(15);
+		produto.setValorVenda(Magica.f("VENDA"));
+		produto.setValorCompra(Magica.f("COMPRA"));
+		produto.setId(015);
+		
+		venda.setTotal(150);
+		venda.setData("02/10/2020");
+		venda.setNotaFiscal(15);
+		
+		System.out.println(venda.getAll());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

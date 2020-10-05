@@ -1,0 +1,37 @@
+package repeticao;ddd
+
+import javax.swing.JOptionPane;
+
+public class DesafioRepeticao {
+
+	public static void main(String[] args) {
+		/*
+		 * Jogador 1: vai digitar um número inteiro
+		 * Jogador 2: tem que descobrir esse número
+		 * Exibir o Parabéns para o Jogador 2 quando ele descobrir
+		 * * Atualizações:
+		 * - O jogador 2 irá receber dicas enquanto ele não acertar
+		 * - No final tem que exibir quantas tentativas foram utilizadas pelo jogador 2
+		 */
+
+		char resposta=0;
+		do {
+			int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro"));
+			char opcao = JOptionPane.showInputDialog("Digite o número").charAt(0);
+			if (opcao=='+') {
+				System.out.println("Soma: " + (valor1+valor2));
+			}else if (opcao=='-') {
+				System.out.println("Subtracao: " + (valor1-valor2));
+			}else if (opcao=='*') {
+				System.out.println("Multiplicacao: " + (valor1*valor2));
+			}else if (opcao=='/') {
+				System.out.println("Divisão: " + (valor1/valor2));
+			}else {
+				System.out.println("Operação não reconhecida!");
+			}
+			resposta = JOptionPane.showInputDialog("Digite <S> para continuar").toUpperCase().charAt(0);
+		}while(resposta=='S');
+		
+	}
+
+}

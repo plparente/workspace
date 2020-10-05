@@ -1,0 +1,39 @@
+package br.com.universidade.modelo;
+
+/*
+ * Design Patterns (Melhores práticas para projetos com 00)
+ * DTO (Data Transfer Object) => melhores práticas para os modelos
+ * 1º Sugestão: TODOS os atributos devem ser privados
+ * 2º Sugestão: Cada atributo deve ter o seu método getter (output) e setter (input) 
+ * 3º Sugestão:
+ */
+
+public class aluno {
+
+	private int numeroMatricula;
+	private String nome;
+	private String email;
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

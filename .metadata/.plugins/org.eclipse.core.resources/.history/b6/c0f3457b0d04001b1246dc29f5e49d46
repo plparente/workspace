@@ -1,0 +1,72 @@
+package br.com.universidade.modelo;
+
+/*
+ * Design Patterns (Melhores práticas para projetos com 00)
+ * DTO (Data Transfer Object) => melhores práticas para os modelos (Beans / JavaBeans / TO / model)
+ * 1º Sugestão: TODOS os atributos devem ser privados
+ * 2º Sugestão: Cada atributo deve ter o seu método getter (output) e setter (input) 
+ * 3º Sugestão:
+ */
+
+public class aluno {
+
+	private int numeroMatricula;
+	private String nome;
+	private String email;
+	
+	public String getAll() {
+		return
+				"Matricula....: " + numeroMatricula + "\n" + 
+				"Nome.........: " + nome + "\n" +
+				"Email........: " + email;
+	}
+	
+	public void setAll(int p1, String p2, String p3) {
+		numeroMatricula=p1;
+		nome=p2;
+		email=p3;
+	}
+	
+	
+	public int getNumeroMatricula() {
+		return numeroMatricula;
+	}
+	public void setNumeroMatricula(int numeroMatricula) {
+		this.numeroMatricula = numeroMatricula;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

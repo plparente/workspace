@@ -1,0 +1,18 @@
+package repeticao;
+
+public class ExercicioGeral {
+
+	public static void main(String[] args) {
+	/*
+	 * Monte uma aplicação que solicite a idade e o nome das pessoas
+	 * Ao terminar (o usuário respondeu que não quer continuar),
+	 * o aplicação deverá existir
+	 * a pessoa mais velha (nome),
+	 * a pessoa mais nova (nome), 
+	 * a quantidade de pessoas maiores de idade e 
+	 * e a média entre as idades que foram digitadas
+	 */
+
+	}
+
+}
