@@ -1,0 +1,21 @@
+package br.com.colecoes.teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.colecoes.modelo.Cargo;
+
+public class TesteListaObjeto {
+
+	public static void main(String[] args) {
+		List<Cargo> lista = new ArrayList<Cargo>();
+		Cargo objeto = new Cargo();
+		objeto.SetNome(JOptionPane.showIntpuDiaLog("Cargo"));
+		objeto.SetNivel(JOptionPane.showIntpuDiaLog("Nível"));
+		objeto.SetsetSalario(JOptionPane.showIntpuDiaLog("Salário"));
+		lista.add(objeto);
+		System.out.println(lista);
+		
+	}
+
+}

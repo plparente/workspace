@@ -1,0 +1,14 @@
+package br.com.colecoes.teste;
+
+public class TesteLista {
+
+	public static void main(String[] args) {
+		/*
+		 * Collection Framework = uma API para armazenar multiplos dados
+		 */
+		//String x[] = new String [2];
+		
+		
+	}
+
+}

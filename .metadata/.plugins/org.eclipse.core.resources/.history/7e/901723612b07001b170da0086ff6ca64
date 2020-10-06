@@ -1,0 +1,23 @@
+package br.com.excecao.teste;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		try {
+		int numero = Integer.parseInt("A");
+		System.out.println(numero);
+		}catch(Exception e) {
+			e.printStackTrace();
+			System.out.println("Digite número");
+		}
+		
+		
+	} //	fechando o método main()
+
+	
+	
+	
+	
+	
+	
+} // fechando a classe
